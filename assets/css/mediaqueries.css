@@ -8,13 +8,12 @@
 }
 
 @media (max-width: 600px) {
-    p{
-        font-size: 12px;
-    }
 }
 
 @media (max-width: 720px) {
-    
+    p{
+        font-size: 14px;
+    }
     aside {
         width: 90%;
     }
@@ -35,21 +34,6 @@
     }
     .img-content {
         width: 40%;
-        height: 10%;
+        height: 15%;
     }
-    /*
-    #cabeceralogo>div {
-        text-align: center;
-    }
-    #cabeceralogo h1 {
-        font: bold 46px Arial, sans-serif;
-    }
-
-    .seccionpie {
-        width: 94%;
-        text-align: center;
-    }
-    #cabeceralogo>div {
-        text-align: center;
-    }*/
 }
