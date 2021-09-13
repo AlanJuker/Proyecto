@@ -1,0 +1,171 @@
+*{
+    color: #f5f9fa;
+}
+
+aside, footer{
+    background: linear-gradient(#323333, #2a2b2b);
+
+}
+header,article{
+    background-color: hsl(198,68%,53%);
+}
+
+#menuicono{
+    background: linear-gradient(#323333, #2a2b2b);
+
+    margin: 10px 10px 10px 0px;
+}
+
+#menuprincipal{
+    background: linear-gradient(#323333, #2a2b2b);
+    display: block;
+}
+ul{
+    background: transparent;
+
+}
+a{
+    background: transparent;
+
+}
+
+#menuprincipal>div {
+    max-width: 960px;
+}
+
+#menuprincipal li {
+    display: inline-block;
+}
+
+#menuprincipal a {
+    font: bold 20px Arial, sans-serif;
+    color: #f5f9fa;
+    text-decoration: none;
+}
+#menuicono {
+    display: none;
+    width: 100%;
+}
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    font-size: 2em;
+    margin-left: 0.67em;
+    margin-right: 0.67em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+p {
+
+    display: block;
+    font-size: 18px;
+    margin-right: 2em;
+    margin-left: 3em;
+    margin-top: 0;
+    text-align: justify;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+li {
+    flex-grow: 1;
+}
+
+a {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: #323333;
+    transition: all 500ms ease;
+}
+
+a:hover {
+    color: #323333;
+    background-color: #f5f9fa;
+}
+
+.img-content {
+    padding-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* SECCIONES*/
+.caja{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+footer{
+    width: 100% ;
+    padding: 2rem 0;
+    display: block;
+    color: #f5f9fa;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.contenido{
+    display: flex;
+    width: 100%;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+article{
+    margin-right: 4px;
+    flex-basis: 70%;
+}
+aside {
+    flex-basis: 30%;
+
+}
+footer{
+    margin-top: 5px;
+}
+
+strong {
+    stroke-width: 0.5em;
+}
+
+#param, table{
+    margin: 0px auto;
+    text-align: center;
+}
+.article-secondary{
+    flex-basis: 100%;
+}
+#leyenda{
+    margin-left: 27%;
+}

@@ -1,0 +1,52 @@
+@media (max-width: 1120px) {
+    a{
+        font-size: large;
+    }
+    article h1 {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 550px) {
+}
+
+@media (max-width: 720px) {
+    
+    aside {
+        width: 90%;
+    }
+    #menuprincipal {
+        display: none;
+        width: 100%;
+        height: 100%;
+        padding: 0%;
+    }
+    #menuprincipal li {
+        width: 100%;
+        display: block;
+        margin-right: 0px;
+        text-align: center;
+    }    
+    #menuicono {
+        display: block;
+    }
+    .img-content {
+        width: 40%;
+        height: 10%;
+    }
+    /*
+    #cabeceralogo>div {
+        text-align: center;
+    }
+    #cabeceralogo h1 {
+        font: bold 46px Arial, sans-serif;
+    }
+
+    .seccionpie {
+        width: 94%;
+        text-align: center;
+    }
+    #cabeceralogo>div {
+        text-align: center;
+    }*/
+}
