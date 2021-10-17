@@ -1,0 +1,86 @@
+.matrices-cuerpo{
+    margin:auto;
+    background-color: hsl(198,68%,53%);
+    font-family: 'Courier New', Courier, monospace;
+}
+.contenedor{
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    color: #f5f9fa;
+    background: linear-gradient(#323333, #2a2b2b);
+    display: flex;
+    padding: 10px 40px 30px 40px ;
+}
+.elementos{
+    display: block;
+    width: 50%;
+}
+span{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.matriz{
+    width: 50%;
+}
+.matriz input{
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+}
+button{
+    color: #323333;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+input{
+    text-align:center;
+    border:none;
+    padding:5px;
+    color: #323333;
+    border-radius: 6px;
+    width: 50px;
+    text-align: center;
+}
+button{
+    padding: 7px;
+}
+#mensaje{
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contenedor{
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border: none;
+}
+th {
+    Color:white;
+}
+th, td{
+    font-size: 20px;
+    width:400px;
+    text-align:center;
+    border:none;
+    padding:5px
+  
+}
+td{
+    text-align: cen;
+    
+}
+hr{
+    height: 0.1rem;
+    max-width: 100%;
+    border: 0;
+    background: white;
+}
+
+.linear{
+    padding:0;
+}

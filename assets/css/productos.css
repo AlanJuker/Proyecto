@@ -1,0 +1,69 @@
+
+.productos-cuerpo{
+   margin: 20px;
+}
+.item{ 
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    background-color: #323333;
+    margin: 20px;
+    border-radius: 10px;
+}
+.fila{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+button{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    border: none;
+    padding: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+aside{
+    background-color: hsl(198,68%,53%);
+    padding-top: 50px;
+    padding-left: 50px;
+    flex-basis: 25%;
+}
+.lista-productos{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    margin-right: 50px;
+}
+#btnMusica, #btnVinyl, #btnMerch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #323333;
+    width: 200px;
+    height: 50px;
+}
+#btnMusica:hover, #btnVinyl:hover, #btnMerch:hover{
+    cursor:pointer;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #323333;
+    width: 200px;
+    height: 50px;
+}

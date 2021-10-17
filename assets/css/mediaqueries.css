@@ -5,24 +5,12 @@
     article h1 {
         margin-bottom: 0px;
     }
-}
-
-@media (max-width: 600px) {
-    p{
-        font-size: 7px;
-    }
-    th{
-        font-size: 10px;
+    #btnMusica, #btnVinyl, #btnMerch, #titulo{
+        width: 150px;
     }
 }
 
-@media (max-width: 720px) {
-    p{
-        font-size: 14px;
-    }
-    aside {
-        width: 90%;
-    }
+@media (max-width: 800px) {
     #menuprincipal {
         display: none;
         width: 100%;
@@ -35,11 +23,49 @@
         margin-right: 0px;
         text-align: center;
     }    
+    #menuprincipal a{
+        font-size: 15px;
+    }
     #menuicono {
         display: block;
     }
+    #btnMusica, #btnVinyl, #btnMerch, #titulo{
+        width: 100px;
+    }    
     .img-content {
-        width: 40%;
+        width: 50%;
+        height: 30%;
+    }
+
+}
+
+
+@media (max-width: 720px) {
+    p{
+        font-size: 14px;
+    }
+    aside {
+        width: 90%;
+    }
+    
+    .img-content {
+        width: 45%;
+        height: 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    .img-content {
+        width: 35%;
         height: 15%;
     }
+
+}
+
+@media (max-width: 400px) {
+    .img-content {
+        width: 25%;
+        height: 10%;
+    }
+
 }
