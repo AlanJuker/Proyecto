@@ -141,10 +141,6 @@ strong {
     stroke-width: 0.5em;
 }
 
-#param, table{
-    margin: 0px auto;
-    text-align: center;
-}
 .article-secondary{
     flex-basis: 100%;
 }

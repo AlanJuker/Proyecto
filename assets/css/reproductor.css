@@ -1,0 +1,44 @@
+#reproductor{
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px 5px 5px 5px;
+    background: linear-gradient(#323333, #2a2b2b);
+    border-radius: 10px;
+}
+#reproducir, #silenciar{
+    padding: 5px 10px;
+    width: 90px;
+    background: linear-gradient(#323333, #2a2b2b);
+    font-weight: bold;
+    border-radius: 10px;
+}
+#reproducir{
+    width: 30px;
+}
+#botones{
+    float: left;
+    width: 150px;
+    height: 20px;
+    padding-left: 5px;
+}
+#barra{
+    float: left;
+    width: 220px;
+    height: 20px;
+    padding: 2px;
+    margin: 2px 5px;
+    border: 1px solid #CCCCCC;
+    background: linear-gradient(#323333, #2a2b2b);
+}
+#progreso{
+    width: 0px;
+    height: 15px;
+    background-color: #CCCCCC;
+}
+.recuperar{
+    clear: both;
+}
+input{
+    width: 80px;
+    mix-blend-mode: color-dodge;
+}

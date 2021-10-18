@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/mediaqueries.css">
     <script src="/assets/js/responsive-menu.js"></script>
-
+    <link rel="stylesheet" href="/assets/css/reproductor.css">
+    <script src = "/assets/js/reproductor.js"></script>
 </head>
 
 <body>
     <div class="caja">
 
-        <header>
-            <h1>Parámetros del sonido</h1>
+        <header >
+            <h1>Estudios de la Música y el Baile en las Personas</h1>
         </header>
 
         <nav id="menuicono">
@@ -23,88 +24,47 @@
         <nav id="menuprincipal">
             <ul>
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="/paginas auxiliares/params.html">Parámetros</a></li>
-                <li><a href="/paginas auxiliares/elems.html">Elementos</a></li>
+                <li><a href="/paginas auxiliares/params.html">Estudios</a></li>
                 <li><a href="/paginas auxiliares/matrices.html">Matrices</a></li>
                 <li><a href="/paginas auxiliares/productos.html">Productos</a></li>
                 <li><a href="/paginas auxiliares/carrito.html">Carrito</a></li>
+                <li><a href="/paginas auxiliares/contacto.html">Contacto</a></li>
             </ul>
         </nav>
 <div class="contenido">
     <article  class="article-secondary">
-    </br></br>
-        <p>
-            El sonido se puede clasificar únicamente en base a los cuatro parámetros siguientes: la altura (agudo o grave), la intensidad (fuerte o débil), la duración (largo o corto) y el timbre (qué o quién emite el sonido)
-            El sonido se puede clasificar únicamente en base a los cuatro parámetros siguientes: la altura (agudo o grave), la intensidad (fuerte o débil), la duración (largo o corto) y el timbre (qué o quién emite el sonido).
 
-No hay más parámetros que analizar que estos cuatro: en esto coincidimos tanto los músicos como los físicos. En lo que nos diferenciamos es en la manera de analizarlos, que  es bastante distintas dependiendo de si quien realiza la medición son los instrumentos del físico o los oídos del músico.
-
-De hecho, mientras en el campo de la acústica, la rama de la física que estudia el sonido, se utilizan valores numéricos que cuantifican ciertas características de las ondas sonoras, como por ejemplo su amplitud o longitud, en música utilizamos sistemas cualitativos, algunos de los cuales son totalmente subjetivos: así, por ejemplo, los hercios se convierten en notas, escalas e intervalos, los decibelios en una serie palabras italianas, como forte, piano o crescendo, y los segundos en blancas, negras o corcheas.
-
-El pasado otoño asistí al curso del ITE Flash para la enseñanza, cuyos materiales pueden descargarse libremente para su empleo autoformativo; como tarea final realicé la siguiente sencilla aplicación, cuya finalidad es representar gráfica y acústicamente esos cuatro parámetros para facilitar su comprensión al alumnado.
-        
+        <section id="reproductor">
+            <br>
+            <video id="medio" width="500" height="250" loop poster="/assets/img/large.png">
+                <source src="/assets/video/SW.mp4">
+                <source src="/assets/video/SW.ogg">
+            </video>
+            <br>
+            <nav id="controles" style="margin: 10px     ;">
+                <div id="botones">
+                    <input type="button" id="reproducir" value=">">
+                    <input type="button" id="silenciar" value="Mute">
+                </div>
+                <div id="barra">
+                    <div id="progreso"></div>
+                </div>
+                    <div id="control">
+                        <div style="height: 2px;"></div>
+                        <input type="range" id="volumen" min="0" max="1" step="0.1"
+                        value="0.6">
+                    </div>
+                    <div class="recuperar"></div>
+            </nav>
+        </section>
+       
+    </br>
+        <p style="font-size: 20px">
+        Bailar en pareja nos refuerza la sensación de pertenencia a un grupo. Cada uno de los bailarines pertenece y se siente miembro de un equipo, algo que recomiendan los expertos en psicología. Reflejos y agilidad: Crear, practicar y dominar una coreografía entre dos conlleva agudizar nuestra atención.
+        Al igual que con el baile individual, el baile en pareja es un excelente ejercicio cardiovascular que nos ayuda en la pérdida de peso y a tratar dolencias como la hipertensión, la obesidad, el colesterol alto o la diabetes. Pero además, el baile en pareja requiere de movimientos que, en ocasiones, exigen un mayor trabajo de flexibilidad y resistencia que los individuales, ¡así que habrá veces que ejercitemos x2!    
         </p>
     </br>
-        <div id="param">
-            <h2>Parámetro Físico</h2>
-        </br>
-            <table>
-                <tr>
-                    <th>Parámetro musical</th>
-                    <th>Presión</th>
-                    <th>Frecuencia</th>
-                    <th>Espectro</th>
-                    <th>Envolvente</th>
-                    <th>Duración</th>
-                </tr>
-    
-                <tr>
-                    <th>Intensidad</th>
-                    <th>ddd</th>
-                    <th>d</th>
-                    <th>d</th>
-                    <th>d</th>
-                    <th>d</th>
-                </tr>
-    
-                <tr>
-                    <th>Tono</th>
-                    <th>d</th>
-                    <th>ddd</th>
-                    <th>d</th>
-                    <th>d</th>
-                    <th>d</th>
-                </tr>
-    
-                <tr>
-                    <th>Timbre</th>
-                    <th>d</th>
-                    <th>dd</th>
-                    <th>ddd</th>
-                    <th>dd</th>
-                    <th>d</th>
-                </tr>
-    
-                <tr>
-                    <th>Duración</th>
-                    <th>d</th>
-                    <th>d</th>
-                    <th>d</th>
-                    <th>d</th>
-                    <th>ddd</th>
-                </tr>
-    
-            </table>
-            <br/>
-                <p id="leyenda">
-                    &bull;ddd Fuertemente dependiente<br>
-                    &bull;dd Dependiente<br>
-                    &bull;d Debilmente dependeiente<br>
-                </p>
-            </br>
-        </br>
-        </div>
-		
+</br>
     </article>
 </div>
 <footer>
